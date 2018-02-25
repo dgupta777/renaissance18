@@ -44,7 +44,7 @@ body {
 }
 
 .nav {
-  margin-top: 8%;
+  margin-top: 10%;
   margin-left: 0px;
   margin-right: 0px;
   text-align: center;
@@ -56,11 +56,11 @@ body {
   z-index: 99;
 }
 
-.about h4 {
+.about li {
   margin-top: 5%;
   padding: 0px;
-  line-height: 1.5em;
-  text-align: center;
+  line-height: 2em;
+  text-align: left;
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 }
 
@@ -89,8 +89,9 @@ body {
 
 .reg p{
   padding: 80px;
-  margin-top: -6.5%;
+  margin-top: 0%;
   line-height: 2em;
+  font-size: 1.5em;
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 }
 
@@ -113,9 +114,10 @@ body {
   line-height: 1.2em;
   padding: none;
 }
-.click {
-  text-align: center;
-  margin-top: 5%;
+.click li{
+  text-align: left;
+  margin-top: 1.5%;
+  line-height: 1.3em;
 }
 
 .click p, a{
@@ -133,4 +135,109 @@ body {
 
 #menu2 h2{
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+
+.form{
+  margin-top: 4%;
+}
+
+
+input:focus {
+  border: 3px solid tomato;
+  border-color: white;
+  background-color: lightblue;
+}
+
+input {
+  box-sizing: border-box;
+  border-color: white;
+}
+
+.control-label h4{
+  color: black;
+}
+
+.control-label h4:hover, h2:hover{
+  color: black;
+}
+
+.btn {
+  margin-top: 1%;
+  color: white;
+  font-size: 15px;
+}
+/*
+.navbar-brand {
+  height: 90px;
+  width: 100%;
+}
+
+.navbar-header h3:hover{
+  color: lightblue;
+}
+.navbar {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+      letter-spacing: 0px;
+  }
+
+.navbar-nav  li a:hover {
+      color: #1abc9c !important;
+}
+
+.navbar-nav a{
+  color: white;
+  text-decoration-line: underline;
+}
+
+body {
+ background-image: url("img/background3.png");
+ background-repeat: no-repeat;
+ background-size: 1650px 100%;
+}
+
+input:focus {
+  border: 3px solid tomato;
+  border-color: white;
+  background-color: lightblue;
+}
+
+footer a:hover{
+  padding: 5px;
+  font-size: 20px;
+  color: lightblue;
+}
+
+footer a{
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+input {
+  box-sizing: border-box;
+  border-color: white;
+}
+.control-label h2{
+  color: white;
+  margin-top: 100px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.control-label h4{
+  color: white;
+}
+
+.control-label h4:hover, h2:hover{
+  color: black;
+}
+
+.btn {
+  color: white;
+  font-size: 15px;
 }
